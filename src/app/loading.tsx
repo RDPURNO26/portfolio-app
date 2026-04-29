@@ -11,7 +11,7 @@ export default function Loading() {
         className="flex items-center gap-2 mb-4"
       >
         <span className="font-heading font-bold text-3xl tracking-tight text-foreground">
-          Purno
+          RD Purno
         </span>
         <span className="w-2.5 h-2.5 rounded-full bg-accent" />
       </motion.div>

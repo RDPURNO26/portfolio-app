@@ -86,7 +86,7 @@ export default function Navbar() {
             className="group font-heading font-bold text-lg tracking-tight text-foreground hover:text-accent transition-colors duration-300"
             data-hover
           >
-            Purno
+            RD Purno
             <span className="text-accent group-hover:text-accent-secondary transition-colors duration-300">
               .
             </span>

@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Globe, Mail, Code } from "lucide-react";
+import { FaGithub, FaExternalLinkAlt, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const contacts = [
-  { icon: Code, label: "github.com/RDPURNO26", sub: "See the code", href: "https://github.com/RDPURNO26" },
-  { icon: ExternalLink, label: "JLPT Samurai", sub: "See it running", href: "https://rdpurno26.github.io/JLPT-Samurai/" },
-  { icon: Globe, label: "linkedin.com/in/rdpurno26", sub: "Connect professionally", href: "https://www.linkedin.com/in/rdpurno26/" },
-  { icon: Mail, label: "rdpurno417@gmail.com", sub: "For opportunities", href: "mailto:rdpurno417@gmail.com" },
+  { icon: FaGithub, label: "github.com/RDPURNO26", sub: "See the code", href: "https://github.com/RDPURNO26" },
+  { icon: FaExternalLinkAlt, label: "JLPT Samurai", sub: "See it running", href: "https://rdpurno26.github.io/JLPT-Samurai/" },
+  { icon: FaLinkedin, label: "linkedin.com/in/rdpurno26", sub: "Connect professionally", href: "https://www.linkedin.com/in/rdpurno26/" },
+  { icon: FaEnvelope, label: "rdpurno417@gmail.com", sub: "For opportunities", href: "mailto:rdpurno417@gmail.com" },
 ];
 
 export default function Contact() {
@@ -37,8 +37,8 @@ export default function Contact() {
               <motion.a
                 key={c.label}
                 href={c.href}
-                target={c.icon === Mail ? undefined : "_blank"}
-                rel={c.icon === Mail ? undefined : "noopener noreferrer"}
+                target={c.icon === FaEnvelope ? undefined : "_blank"}
+                rel={c.icon === FaEnvelope ? undefined : "noopener noreferrer"}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

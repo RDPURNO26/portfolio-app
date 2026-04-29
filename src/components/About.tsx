@@ -40,7 +40,7 @@ export default function About() {
         </motion.div>
 
         <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-16 tracking-tight">
-          Who is Purno<span className="text-accent">?</span>
+          Who is RD Purno<span className="text-accent">?</span>
         </motion.h2>
 
         {/* Stats bar */}
@@ -74,7 +74,7 @@ export default function About() {
               <div className="absolute inset-[2px] rounded-2xl overflow-hidden bg-surface">
                 <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a1a 0%, #111128 30%, #00d4ff08 100%)" }} />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Image src="/RD.png" alt="Purno" fill className="object-cover" />
+                  <Image src="/RD.png" alt="RD Purno" fill className="object-cover" />
                 </div>
               </div>
             </motion.div>

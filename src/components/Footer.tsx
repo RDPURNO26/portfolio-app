@@ -16,7 +16,7 @@ export default function Footer() {
           className="text-center"
         >
           <p className="font-heading font-semibold text-lg mb-2">
-            Purno<span className="text-accent">.</span>
+            RD Purno<span className="text-accent">.</span>
           </p>
           <p className="text-xs text-muted font-mono tracking-wider">
             © 2026 Rahimanid Dian Purno
