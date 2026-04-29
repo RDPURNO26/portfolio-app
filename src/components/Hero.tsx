@@ -246,7 +246,7 @@ export default function Hero() {
           Diploma student from Bangladesh. Targeting Japan.
           <br />
           <span className="text-accent/60 text-sm">
-            CS &bull; AI &bull; Gesture Systems &bull; Japanese
+            CS &bull; AI &bull; Software Engineering &bull; Japanese
           </span>
         </motion.p>
 

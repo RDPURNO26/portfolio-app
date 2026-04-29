@@ -26,7 +26,7 @@ const tags = [
 
 const stats = [
   { value: "4+", label: "Projects Shipped" },
-  { value: "7th", label: "Semester CSE" },
+  { value: "7th Sem", label: "Diploma in CSE" },
   { value: "N4", label: "JLPT Target" },
   { value: "∞", label: "Curiosity" },
 ];

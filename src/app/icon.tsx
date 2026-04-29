@@ -17,9 +17,10 @@ export default function Icon() {
           alignItems: 'center',
           justifyContent: 'center',
           color: '#00d4ff',
-          fontWeight: 800,
-          fontFamily: 'monospace',
-          borderRadius: '4px',
+          fontWeight: 600,
+          fontStyle: 'italic',
+          fontFamily: '"Brush Script MT", "Comic Sans MS", cursive, serif',
+          borderRadius: '50%',
           border: '1px solid #00d4ff40'
         }}
       >
