@@ -26,7 +26,7 @@ const tags = [
 
 const stats = [
   { value: "4+", label: "Projects Shipped" },
-  { value: "11", label: "AURA Gestures" },
+  { value: "7th", label: "Semester CSE" },
   { value: "N4", label: "JLPT Target" },
   { value: "∞", label: "Curiosity" },
 ];
