@@ -42,10 +42,6 @@ export const metadata: Metadata = {
     type: "website",
     images: [{ url: "/the sharing pic.jpg", width: 1200, height: 630 }],
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
 };
 
 export default function RootLayout({
