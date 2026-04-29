@@ -20,7 +20,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rahimanid Dian Purno — Developer, Researcher, Builder",
+  title: "RD Purno — Developer, Researcher, Builder",
   description:
     "Portfolio of Rahimanid Dian Purno — CS student from Bangladesh building AI systems, Japanese learning platforms, and IoT solutions. Targeting BSc in Japan and PhD in AI.",
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Rahimanid Dian Purno" }],
   openGraph: {
-    title: "Rahimanid Dian Purno — Developer, Researcher, Builder",
+    title: "RD Purno — Developer, Researcher, Builder",
     description:
       "CS student from Bangladesh. Building AI systems. Targeting Japan.",
     type: "website",
