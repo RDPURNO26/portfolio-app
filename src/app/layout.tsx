@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     description:
       "CS student from Bangladesh. Building AI systems. Targeting Japan.",
     type: "website",
-    images: [{ url: "/og.png", width: 1200, height: 630 }],
+    images: [{ url: "/the sharing pic.jpg", width: 1200, height: 630 }],
   },
   icons: {
     icon: "/favicon.ico",
