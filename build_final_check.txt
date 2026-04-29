@@ -1,0 +1,29 @@
+﻿Ôû▓ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 2.6s
+  Running TypeScript ...
+  Finished TypeScript in 2.8s ...
+  Collecting page data using 5 workers ...
+  Generating static pages using 5 workers (0/4) ...
+node.exe : ÔÜá metadataBase property in metadata export is not set for resolving social open graph or twitter images, 
+using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ÔÜá metadataBas...ta#metadatabase:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  Generating static pages using 5 workers (1/4) 
+  Generating static pages using 5 workers (2/4) 
+  Generating static pages using 5 workers (3/4) 
+Ô£ô Generating static pages using 5 workers (4/4) in 898ms
+  Finalizing page optimization ...
+
+Route (app)
+Ôöî Ôùï /
+Ôöö Ôùï /_not-found
+
+
+Ôùï  (Static)  prerendered as static content
+

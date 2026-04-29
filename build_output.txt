@@ -1,0 +1,196 @@
+﻿Ôû▓ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+> Build error occurred
+Error: Turbopack build failed with 6 errors:
+./src/components/Contact.tsx:4:1
+Export Github doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mGithub[0m, [33mExternalLink[0m, [33mLinkedin[0m, [33mMail[0m 
+} [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36mconst[0m contacts = [
+  [90m7 |[0m   { icon: [32m"GitHub"[0m, label: [32m"github.com/RDPURNO26"[0m, sub: [32m"See the code"[0m, 
+href: [32m"https://gith...[0m
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Contact.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Contact.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+./src/components/Contact.tsx:4:1
+Export Github doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mGithub[0m, [33mExternalLink[0m, [33mLinkedin[0m, [33mMail[0m 
+} [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36mconst[0m contacts = [
+  [90m7 |[0m   { icon: [32m"GitHub"[0m, label: [32m"github.com/RDPURNO26"[0m, sub: [32m"See the code"[0m, 
+href: [32m"https://gith...[0m
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Contact.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Contact.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+./src/components/Projects.tsx:4:1
+Export Github doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mExternalLink[0m, [33mGithub[0m } [36mfrom[0m 
+[32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36minterface[0m [33mProjectLink[0m {
+  [90m7 |[0m   label: string;
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Projects.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Projects.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+./src/components/Projects.tsx:4:1
+Export Github doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mExternalLink[0m, [33mGithub[0m } [36mfrom[0m 
+[32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36minterface[0m [33mProjectLink[0m {
+  [90m7 |[0m   label: string;
+
+The export Github was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Gift?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Projects.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Projects.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+./src/components/Contact.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mGithub[0m, [33mExternalLink[0m, [33mLinkedin[0m, [33mMail[0m 
+} [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36mconst[0m contacts = [
+  [90m7 |[0m   { icon: [32m"GitHub"[0m, label: [32m"github.com/RDPURNO26"[0m, sub: [32m"See the code"[0m, 
+href: [32m"https://gith...[0m
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Contact.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Contact.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+./src/components/Contact.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion } [36mfrom[0m [32m"framer-motion"[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mGithub[0m, [33mExternalLink[0m, [33mLinkedin[0m, [33mMail[0m 
+} [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m
+  [90m6 |[0m [36mconst[0m contacts = [
+  [90m7 |[0m   { icon: [32m"GitHub"[0m, label: [32m"github.com/RDPURNO26"[0m, sub: [32m"See the code"[0m, 
+href: [32m"https://gith...[0m
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Contact.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Contact.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (./src/components/Contact.tsx:4:1)
+    at <unknown> (./src/components/Contact.tsx:4:1)
+    at <unknown> (./src/components/Projects.tsx:4:1)
+    at <unknown> (./src/components/Projects.tsx:4:1)
+    at <unknown> (./src/components/Contact.tsx:4:1)
+    at <unknown> (./src/components/Contact.tsx:4:1)

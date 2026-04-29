@@ -1,0 +1,35 @@
+﻿Ôû▓ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+Ô£ô Compiled successfully in 25.0s
+  Running TypeScript ...
+node.exe : Failed to type check.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Failed to type check.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+./src/app/page.tsx:42:8
+Type error: Type '{ children: Element; initial: { opacity: number; y: number; }; whileInView: { opacity: number; y: 
+number; }; viewport: { once: boolean; margin: "-80px"; }; transition: { duration: number; ease: number[]; }; }' is not 
+assignable to type 'Omit<HTMLMotionProps<"div">, "ref">'.
+  Types of property 'transition' are incompatible.
+    Type '{ duration: number; ease: number[]; }' is not assignable to type 'Transition<any> | undefined'.
+      Type '{ duration: number; ease: number[]; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+        Type '{ duration: number; ease: number[]; }' is not assignable to type 'ValueAnimationTransition<any>'.
+          Types of property 'ease' are incompatible.
+            Type 'number[]' is not assignable to type 'Easing | Easing[] | undefined'.
+              Type 'number[]' is not assignable to type 'EasingFunction | Easing[]'.
+                Type 'number[]' is not assignable to type 'Easing[]'.
+                  Type 'number' is not assignable to type 'Easing'.
+
+  [90m40 |[0m
+  [90m41 |[0m       <[33mDivider[0m />
+[31m[1m>[0m [90m42 |[0m       <motion.div {...sectionAnim}><[33mAbout[0m /></motion.div>
+  [90m   |[0m        [31m[1m^[0m
+  [90m43 |[0m
+  [90m44 |[0m       <[33mDivider[0m />
+  [90m45 |[0m       <motion.div {...sectionAnim}><[33mProjects[0m /></motion.div>
+Next.js build worker exited with code: 1 and signal: null
