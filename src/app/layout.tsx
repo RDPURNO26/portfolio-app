@@ -56,6 +56,11 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true },
   },
+  verification: {
+    other: {
+      'msvalidate.01': '4EC7C2EABFFC237544D4FA509E2CFB07',
+    },
+  },
 };
 
 export default function RootLayout({
