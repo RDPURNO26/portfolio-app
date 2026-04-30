@@ -8,7 +8,9 @@ const nextConfig: NextConfig = {
         hostname: "github-readme-stats.vercel.app",
       },
     ],
+    formats: ["image/avif", "image/webp"],
   },
+  compress: true,
 };
 
 export default nextConfig;

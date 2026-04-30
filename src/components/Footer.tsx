@@ -18,11 +18,8 @@ export default function Footer() {
           <p className="font-heading font-semibold text-lg mb-2">
             RD Purno<span className="text-accent">.</span>
           </p>
-          <p className="text-xs text-muted font-mono tracking-wider">
-            © 2026 Rahimanid Dian Purno
-          </p>
-          <p className="text-[11px] text-muted/50 font-mono mt-1.5 tracking-widest">
-            BANGLADESH → JAPAN
+          <p className="text-[11px] text-muted/80 font-mono tracking-wider">
+            © 2026 Rahimanid Dian Purno (RD Purno) — Bangladesh → Japan
           </p>
         </motion.div>
         

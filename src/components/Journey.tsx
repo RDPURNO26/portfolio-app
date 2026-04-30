@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const nodes = [
   { time: "Right Now", badge: "2026", text: "7th semester. Final theory year. Building AURA v4 actively. Studying ML modules one by one. Japanese every single day." },
   { time: "Next Step", badge: "Soon", text: "Industrial attachment in ML/AI field. Real world experience. Not just coursework." },
-  { time: "The Language", badge: "In Progress", text: "JLPT N4 → N3 → N2. The language is the key to the door. Learning it because I need it. Not because it looks good on a CV." },
+  { time: "The Language", badge: "In Progress", text: "JLPT N4 (July 2026) → N3 → N2. The language is the key to the door. Learning it because I need it. Not because it looks good on a CV." },
   { time: "The Door", badge: "The Goal", text: "BSc in Japan. Artificial Intelligence. This portfolio is part of that application." },
   { time: "The Dream", badge: "Why", text: "PhD in AI. Build something that actually thinks. That's why all of this exists." },
 ];

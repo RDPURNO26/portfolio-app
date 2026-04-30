@@ -204,8 +204,9 @@ export default function Hero() {
           </span>
         </motion.div>
 
+        <h1 className="sr-only">Rahimanid Dian Purno — RD Purno — Developer and AI Student from Bangladesh</h1>
         {/* Heading — word-by-word stagger */}
-        <h1 className="font-heading font-[800] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] tracking-tight mb-8">
+        <h2 className="font-heading font-[800] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] tracking-tight mb-8">
           {words.map((word, i) =>
             word === "||" ? (
               <br key={i} />
@@ -234,7 +235,7 @@ export default function Hero() {
               </motion.span>
             )
           )}
-        </h1>
+        </h2>
 
         {/* Subtitle */}
         <motion.p

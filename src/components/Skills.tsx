@@ -3,11 +3,37 @@
 import { motion } from "framer-motion";
 
 const groups = [
-  { label: "I build with", icon: "⚡", tags: ["Python", "Java", "JavaScript", "HTML", "CSS"] },
-  { label: "I've shipped with", icon: "🚀", tags: ["MediaPipe", "OpenCV", "PyQt6", "Firebase", "Arduino", "NodeMCU", "React", "Vite"] },
-  { label: "I design with", icon: "🎨", tags: ["Adobe Illustrator", "Photoshop", "UI/UX Prototyping"] },
-  { label: "I'm learning", icon: "📡", tags: ["NumPy", "Pandas", "Machine Learning", "Deep Learning", "Japanese (N4)"], pulse: true },
-  { label: "I work with AI as", icon: "🤖", tags: ["Researcher", "Director", "Pair Programmer"] },
+  { 
+    label: "I build with", 
+    subtitle: "(Core stacks I use regularly)",
+    icon: "⚡", 
+    tags: ["Python", "Java", "JavaScript", "HTML", "CSS"] 
+  },
+  { 
+    label: "I've shipped with", 
+    subtitle: "(Worked with & Learning further)",
+    icon: "🚀", 
+    tags: ["MediaPipe", "OpenCV", "PyQt6", "Firebase", "Arduino", "NodeMCU", "React", "Vite"] 
+  },
+  { 
+    label: "I design with", 
+    subtitle: "(Aesthetics & Imaginative Ideation)",
+    icon: "🎨", 
+    tags: ["Adobe Illustrator", "Photoshop", "UI/UX Prototyping", "Innovative & Imaginative Concepting"] 
+  },
+  { 
+    label: "I'm learning", 
+    subtitle: "(Active study modules)",
+    icon: "📡", 
+    tags: ["NumPy", "Pandas", "Machine Learning", "Deep Learning", "Japanese (N4)"], 
+    pulse: true 
+  },
+  { 
+    label: "I work with AI as", 
+    subtitle: "(My role in AI orchestration)",
+    icon: "🤖", 
+    tags: ["Researcher", "Director", "Pair Programmer"] 
+  },
 ];
 
 const containerV = { hidden: {}, visible: { transition: { staggerChildren: 0.12 } } };
@@ -36,7 +62,10 @@ export default function Skills() {
             <motion.div key={group.label} variants={groupV} whileHover={{ y: -4, boxShadow: "0 0 40px #00d4ff08" }} className={`rounded-xl glass gradient-border p-6 transition-all duration-500 ${group.label === "I work with AI as" ? "md:col-span-2" : ""}`}>
               <div className="flex items-center gap-2.5 mb-5">
                 <span className="text-lg">{group.icon}</span>
-                <p className="text-xs uppercase tracking-[0.2em] text-accent font-mono font-medium">{group.label}</p>
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-accent font-mono font-medium leading-none mb-1">{group.label}</p>
+                  <p className="text-[10px] text-muted/60 font-mono tracking-tight">{group.subtitle}</p>
+                </div>
               </div>
 
               <motion.div variants={tagContV} className="flex flex-wrap gap-2.5">

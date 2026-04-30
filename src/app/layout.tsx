@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, DM_Sans, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import StructuredData from "../components/StructuredData";
 
 const syne = Syne({
   variable: "--font-syne",
@@ -20,27 +21,40 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RD Purno — Developer, Researcher, Builder",
-  description:
-    "Portfolio of Rahimanid Dian Purno — CS student from Bangladesh building AI systems, Japanese learning platforms, and IoT solutions. Targeting BSc in Japan and PhD in AI.",
+  title: 'Rahimanid Dian Purno | RD Purno — Developer & AI Student',
+  description: 'Rahimanid Dian Purno, known as RD Purno. Computer Science & Technology student from Bangladesh. Built AURA — real-time hand gesture PC control system. Targeting BSc in AI in Japan.',
   keywords: [
-    "Rahimanid Dian Purno",
-    "AURA",
-    "AI",
-    "portfolio",
-    "developer",
-    "Bangladesh",
-    "Japan",
-    "machine learning",
-    "gesture control",
+    'RD Purno',
+    'Rahimanid Dian Purno',
+    'RDPURNO26',
+    'RD Purno portfolio',
+    'Rahimanid Dian Purno portfolio',
+    'AURA gesture control',
+    'Bangladesh developer',
+    'AI student Bangladesh',
   ],
-  authors: [{ name: "Rahimanid Dian Purno" }],
+  authors: [{ name: 'Rahimanid Dian Purno', url: 'https://rdpurno.vercel.app' }],
+  creator: 'Rahimanid Dian Purno',
+  metadataBase: new URL('https://rdpurno.vercel.app'),
+  alternates: { canonical: 'https://rdpurno.vercel.app' },
   openGraph: {
-    title: "RD Purno — Developer, Researcher, Builder",
-    description:
-      "CS student from Bangladesh. Building AI systems. Targeting Japan.",
-    type: "website",
-    images: [{ url: "/the sharing pic.jpg", width: 1200, height: 630 }],
+    type: 'website',
+    url: 'https://rdpurno.vercel.app',
+    title: 'Rahimanid Dian Purno | RD Purno — Developer & AI Student',
+    description: 'CST student from Bangladesh. Built AURA gesture control. Targeting BSc in AI in Japan.',
+    siteName: 'RD Purno Portfolio',
+    images: [{ url: '/RD.png', width: 1200, height: 630, alt: 'Rahimanid Dian Purno — RD Purno' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Rahimanid Dian Purno | RD Purno',
+    description: 'CST student from Bangladesh. Built AURA. Targeting Japan for BSc in AI.',
+    images: ['/RD.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true },
   },
 };
 
@@ -54,6 +68,9 @@ export default function RootLayout({
       lang="en"
       className={`${syne.variable} ${dmSans.variable} ${geistMono.variable} antialiased`}
     >
+      <head>
+        <StructuredData />
+      </head>
       <body className="min-h-screen bg-background text-foreground">
         <div className="noise-overlay" aria-hidden="true" />
         {children}
