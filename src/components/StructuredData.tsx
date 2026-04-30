@@ -16,6 +16,7 @@ export default function StructuredData() {
       'https://github.com/RDPURNO26',
       'https://www.linkedin.com/in/rdpurno26/',
       'https://rdpurno26.github.io/JLPT-Samurai/',
+      'https://facebook.com/rdpurno',
     ],
     knowsAbout: ['Python', 'Machine Learning', 'Computer Vision', 'MediaPipe', 'AI', 'IoT', 'Japanese Language'],
   };

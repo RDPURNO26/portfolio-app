@@ -1,13 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaExternalLinkAlt, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt, FaLinkedin, FaEnvelope, FaFacebook } from "react-icons/fa";
 
 const contacts = [
-  { icon: FaGithub, label: "github.com/RDPURNO26", sub: "See the code", href: "https://github.com/RDPURNO26" },
-  { icon: FaExternalLinkAlt, label: "JLPT Samurai", sub: "See it running", href: "https://rdpurno26.github.io/JLPT-Samurai/" },
-  { icon: FaLinkedin, label: "linkedin.com/in/rdpurno26", sub: "Connect professionally", href: "https://www.linkedin.com/in/rdpurno26/" },
-  { icon: FaEnvelope, label: "rdpurno417@gmail.com", sub: "For opportunities", href: "mailto:rdpurno417@gmail.com" },
+  { icon: FaGithub, label: "GitHub", sub: "github.com/RDPURNO26", href: "https://github.com/RDPURNO26" },
+  { icon: FaLinkedin, label: "LinkedIn", sub: "linkedin.com/in/rdpurno26", href: "https://www.linkedin.com/in/rdpurno26/" },
+  { icon: FaFacebook, label: "Facebook", sub: "facebook.com/rdpurno", href: "https://facebook.com/rdpurno" },
+  { icon: FaExternalLinkAlt, label: "JLPT Samurai", sub: "rdpurno26.github.io/JLPT-Samurai", href: "https://rdpurno26.github.io/JLPT-Samurai/" },
+  { icon: FaEnvelope, label: "Email", sub: "rdpurno417@gmail.com", href: "mailto:rdpurno417@gmail.com" },
 ];
 
 export default function Contact() {
@@ -30,7 +31,7 @@ export default function Contact() {
           </a>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {contacts.map((c, i) => {
             const Icon = c.icon;
             return (
