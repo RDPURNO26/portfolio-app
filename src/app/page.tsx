@@ -46,6 +46,7 @@ export default function Home() {
         <main className="relative">
           <CustomCursor />
           <Navbar />
+          <h1 className="sr-only">Rahimanid Dian Purno — RD Purno, Developer and AI Student from Bangladesh</h1>
           <Hero />
 
           <Divider />

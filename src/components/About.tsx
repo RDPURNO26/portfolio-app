@@ -74,7 +74,7 @@ export default function About() {
               <div className="absolute inset-[2px] rounded-2xl overflow-hidden bg-surface">
                 <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a1a 0%, #111128 30%, #00d4ff08 100%)" }} />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Image src="/RD.png" alt="RD Purno" fill className="object-cover" />
+                  <Image src="/RD.png" alt="Rahimanid Dian Purno — RD Purno, Computer Science student from Bangladesh" fill className="object-cover" />
                 </div>
               </div>
             </motion.div>
@@ -86,6 +86,7 @@ export default function About() {
                 {quickFacts.map(([key, val], i) => (
                   <motion.li key={i} initial={{ opacity: 0, x: -10 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.55 + i * 0.06, duration: 0.3 }} className="flex justify-between gap-4 py-1 border-b border-surface-border/50 last:border-0">
                     <span className="text-muted">{key}</span>
+                    <span className="sr-only">: </span>
                     <span className="text-foreground text-right">{val}</span>
                   </motion.li>
                 ))}

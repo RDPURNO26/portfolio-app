@@ -19,7 +19,7 @@ const groups = [
     label: "I design with", 
     subtitle: "(Aesthetics & Imaginative Ideation)",
     icon: "🎨", 
-    tags: ["Adobe Illustrator", "Photoshop", "UI/UX Prototyping", "Innovative & Imaginative Concepting"] 
+    tags: ["Adobe Illustrator", "Photoshop", "UI/UX Prototyping", "Visual Ideation"] 
   },
   { 
     label: "I'm learning", 
@@ -70,7 +70,7 @@ export default function Skills() {
 
               <motion.div variants={tagContV} className="flex flex-wrap gap-2.5">
                 {group.tags.map((tag) => (
-                  <motion.span key={tag} variants={tagV} whileHover={{ scale: 1.08, borderColor: "#00d4ff40", backgroundColor: "#00d4ff10", boxShadow: "0 0 20px #00d4ff12" }} className={`px-4 py-2 rounded-lg text-sm font-mono bg-surface-light/80 text-foreground/75 border border-surface-border hover:text-accent transition-all duration-300 cursor-default ${group.pulse ? "animate-pulse-soft" : ""}`}>
+                  <motion.span key={tag} variants={tagV} whileHover={{ scale: 1.08, borderColor: "#00d4ff40", backgroundColor: "#00d4ff10", boxShadow: "0 0 20px #00d4ff12" }} className={`px-3 py-1 rounded-full text-xs font-mono bg-transparent text-cyan-400 border border-cyan-400/30 hover:bg-cyan-400/10 transition-all duration-300 cursor-default ${group.pulse ? "animate-pulse-soft" : ""}`}>
                     {tag}
                   </motion.span>
                 ))}

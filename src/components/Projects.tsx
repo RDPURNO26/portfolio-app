@@ -32,7 +32,7 @@ const projects: ProjectData[] = [
     status: "Live", statusColor: "#4ade80",
     links: [
       { label: "Live Demo ↗", href: "https://rdpurno26.github.io/JLPT-Samurai/" },
-      { label: "GitHub ↗", href: "https://github.com/RDPURNO26" },
+      { label: "GitHub ↗", href: "https://github.com/RDPURNO26/JLPT-Samurai" },
     ],
   },
   {
@@ -41,7 +41,7 @@ const projects: ProjectData[] = [
     description: "Dual-microcontroller system. Voice control via Alexa and Google Home. But the safety pipeline — fire detection, gas monitoring, emergency door unlock — runs fully offline. No WiFi needed for safety.",
     tags: ["NodeMCU", "Arduino", "I2C", "Sinric Pro", "DHT11"],
     status: "Hardware", statusColor: "#60a5fa",
-    links: [{ label: "GitHub ↗", href: "https://github.com/RDPURNO26" }],
+    links: [{ label: "GitHub ↗", href: "https://github.com/RDPURNO26/Smart-Home" }],
   },
   {
     label: "Web App", name: "UniLib 📚",
@@ -49,7 +49,7 @@ const projects: ProjectData[] = [
     description: "Next-gen library management system built with React + Vite. I directed the architecture and all decisions. AI handled implementation. A deliberate, honest workflow.",
     tags: ["React", "Vite", "MySQL"],
     status: "In Development", statusColor: "#facc15",
-    links: [{ label: "GitHub ↗", href: "https://github.com/RDPURNO26" }],
+    links: [{ label: "GitHub ↗", href: "https://github.com/RDPURNO26/UniLib" }],
   },
 ];
 

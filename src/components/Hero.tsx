@@ -204,7 +204,6 @@ export default function Hero() {
           </span>
         </motion.div>
 
-        <h1 className="sr-only">Rahimanid Dian Purno — RD Purno — Developer and AI Student from Bangladesh</h1>
         {/* Heading — word-by-word stagger */}
         <h2 className="font-heading font-[800] text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] tracking-tight mb-8">
           {words.map((word, i) =>
@@ -245,10 +244,6 @@ export default function Hero() {
           className="text-muted text-base sm:text-lg md:text-xl font-sans mb-12 tracking-wide max-w-2xl mx-auto"
         >
           Diploma student from Bangladesh. Targeting Japan.
-          <br />
-          <span className="text-accent/60 text-sm">
-            CS &bull; AI &bull; Diploma Engineering &bull; Japanese
-          </span>
         </motion.p>
 
         {/* CTA */}
