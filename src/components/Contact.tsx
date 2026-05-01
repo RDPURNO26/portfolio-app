@@ -39,6 +39,7 @@ export default function Contact() {
                 href={c.href}
                 target={c.icon === FaEnvelope ? undefined : "_blank"}
                 rel={c.icon === FaEnvelope ? undefined : "noopener noreferrer"}
+                aria-label={c.label}
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

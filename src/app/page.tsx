@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <MotionConfig reducedMotion="user">
       <AnimatePresence>
-        <main className="relative">
+        <main id="main-content" className="relative">
           <CustomCursor />
           <Navbar />
           <h1 className="sr-only">Rahimanid Dian Purno — RD Purno, Developer and AI Student from Bangladesh</h1>
