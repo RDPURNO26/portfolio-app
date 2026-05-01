@@ -15,7 +15,7 @@ const projects: ProjectData[] = [
   {
     label: "AI / Desktop System", name: "AURA ⭐",
     tagline: "Control your PC with your hand. No gloves. No sensors. Just a webcam.",
-    description: "AURA is a real-time gesture control system that replaces your mouse and keyboard entirely using hand tracking. It uses MediaPipe's 21-point landmark model, a custom Gesture FSM, multi-process architecture with SharedMemory IPC, and a PyQt6 dashboard with live telemetry. 11 distinct gestures. Zero overlap. Runs completely offline.",
+    description: "The question was: can a computer understand human gesture as naturally as it understands a mouse click? AURA is that answer. Real-time gesture control using MediaPipe's 21-point landmark model, a custom Gesture FSM, multi-process SharedMemory IPC architecture, and a PyQt6 dashboard with live telemetry. 11 distinct gestures. Zero overlap. Fully offline.",
     tags: ["Python", "MediaPipe", "PyQt6", "OpenCV", "Multiprocessing", "Win32"],
     status: "Active", statusColor: "#4ade80",
     links: [
@@ -27,7 +27,7 @@ const projects: ProjectData[] = [
   {
     label: "Web Platform", name: "JLPT Samurai ⚔️",
     tagline: "I needed a Japanese learning platform. So I built one.",
-    description: "Full JLPT study platform with Kana Dojo, N5/N4 vocabulary, 3D flashcards, Spaced Repetition System, time-attack quiz engine, and Firebase cloud sync. Used by me daily.",
+    description: "The question was: why don't Japanese learning platforms feel like they were built by someone who actually needs to learn Japanese? So I built one myself. Full SRS system, 3D flashcards, time-attack quiz engine, and Firebase cloud sync. I use it every day. That's the best proof it works.",
     tags: ["JavaScript", "Firebase", "HTML", "CSS", "Web Speech API"],
     status: "Live", statusColor: "#4ade80",
     links: [
@@ -46,7 +46,7 @@ const projects: ProjectData[] = [
   {
     label: "Web App", name: "UniLib 📚",
     tagline: "AI-assisted. Human-directed.",
-    description: "Next-gen library management system built with React + Vite. I directed the architecture and all decisions. AI handled implementation. A deliberate, honest workflow.",
+    description: "A next-gen library management system built with a deliberate AI-assisted workflow — I directed every architectural decision, AI handled implementation. Human judgment directing machine capability.",
     tags: ["React", "Vite", "MySQL"],
     status: "In Development", statusColor: "#facc15",
     links: [{ label: "GitHub ↗", href: "https://github.com/RDPURNO26/UniLib" }],
@@ -129,8 +129,9 @@ export default function Projects() {
           Things I&apos;ve Built<span className="text-accent">.</span>
         </motion.h2>
 
-        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-14 max-w-2xl">
-          Real projects, shipped and used. Not tutorials repackaged.
+        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-14 max-w-2xl whitespace-pre-line">
+          Each project is an answer to a real question.
+          Not tutorials repackaged.
         </motion.p>
 
         {featured.map((p, i) => (

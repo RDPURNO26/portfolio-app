@@ -32,7 +32,7 @@ const groups = [
     label: "I work with AI as", 
     subtitle: "(My role in AI orchestration)",
     icon: "🤖", 
-    tags: ["Researcher", "Director", "Pair Programmer"] 
+    tags: ["Researcher", "Director", "Pair Programmer", "Research Partner"] 
   },
 ];
 
@@ -53,8 +53,8 @@ export default function Skills() {
           What I Work With<span className="text-accent">.</span>
         </motion.h2>
 
-        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-14 max-w-2xl">
-          Honest list. No padding. If it&apos;s here, I&apos;ve used it in a real project or I&apos;m actively learning it.
+        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-14 max-w-2xl whitespace-pre-line">
+          Honest list. If it's here, I've shipped it or I'm actively studying it. No padding.
         </motion.p>
 
         <motion.div variants={containerV} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-80px" }} className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -75,6 +75,13 @@ export default function Skills() {
                   </motion.span>
                 ))}
               </motion.div>
+              {group.label === "I'm learning" && (
+                <div className="mt-4 text-[11px] italic text-[#6b7280]">
+                  Studying module by module.
+                  <br />
+                  Understanding the math, not just the API.
+                </div>
+              )}
             </motion.div>
           ))}
         </motion.div>

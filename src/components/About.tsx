@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 
 const paragraphs = [
-  "I'm Rahimanid Dian Purno — a 7th semester Computer Science & Technology student from Bangladesh.",
-  "I taught myself Python until I could build something real. That something became AURA — a system that lets you control your entire PC with hand gestures, no special hardware, just a webcam.",
-  "I built a Japanese learning platform because I needed one myself. I'm learning the language because I actually plan to go to Japan — for a BSc, then a PhD in AI. Not someday. That's the plan.",
-  "Is it going to work? I don't know. But I've never let that stop me from building the next thing.",
-  "I have a strong eye for design, a research-first approach before every project, and I've learned to build serious things by directing AI as a partner — not a replacement. Right now I'm learning ML seriously, module by module.",
+  "I'm Rahimanid Dian Purno — a final-semester Computer Science & Technology student from Bangladesh, working at the intersection of AI, human-computer interaction, and intelligent systems.",
+  "My work starts with a question: how do we make computers understand humans more naturally? AURA was my first real answer — a gesture control system that replaced the mouse and keyboard entirely using only a webcam and hand tracking. No special hardware. Just code that understands what your hand is doing.",
+  "I built JLPT Samurai because I needed it myself. I'm learning Japanese because Japan leads the research I want to pursue: HCI, robotics, and applied AI. I'm not going as a tourist. I'm going to work.",
+  "Right now I'm studying ML module by module — not rushing, actually understanding. My industrial attachment targets an ML/AI placement. I direct AI as a research and build partner, not a shortcut. Research-first approach before every project.",
 ];
 
 const quickFacts = [
   ["Location", "Bangladesh 🇧🇩"],
   ["Semester", "7th — Final Theory Year"],
-  ["Focus", "AI / ML / Gesture Systems"],
+  ["Focus", "HCI · AI · Intelligent Systems"],
   ["Language", "Japanese (→ N4)"],
-  ["Goal", "BSc → PhD in Japan 🇯🇵"],
+  ["Goal", "BSc → PhD in AI in Japan 🇯🇵"],
+  ["Available", "Internship · Scholarship · Work"],
 ];
 
 const tags = [

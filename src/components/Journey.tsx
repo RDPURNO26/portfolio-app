@@ -4,11 +4,11 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 const nodes = [
-  { time: "Right Now", badge: "2026", text: "7th semester. Final theory year. Building AURA v4 actively. Studying ML modules one by one. Japanese every single day." },
-  { time: "Next Step", badge: "Soon", text: "Industrial attachment in ML/AI field. Real world experience. Not just coursework." },
-  { time: "The Language", badge: "In Progress", text: "JLPT N4 (July 2026) → N3 → N2. The language is the key to the door. Learning it because I need it. Not because it looks good on a CV." },
-  { time: "The Door", badge: "The Goal", text: "BSc in Japan. Artificial Intelligence. This portfolio is part of that application." },
-  { time: "The Dream", badge: "Why", text: "PhD in AI. Build something that actually thinks. That's why all of this exists." },
+  { time: "The Foundation", badge: "NOW", text: "Final semester CST student. Building AURA v4. Studying ML — linear algebra, statistics, NumPy, Pandas — module by module. Japanese every single day." },
+  { time: "First Real Test", badge: "SOON", text: "Industrial attachment in ML/AI field. Not just coursework. Real problems, real data, real constraints." },
+  { time: "The Key", badge: "IN PROGRESS", text: "JLPT N4 → N3 → N2. Japan's research community operates in Japanese. I intend to operate inside it, not beside it." },
+  { time: "The Environment", badge: "THE GOAL", text: "BSc in AI in Japan. Not because it's prestigious. Because Japan's work in HCI, robotics, and applied AI is where I need to be to answer the questions I'm asking." },
+  { time: "The Work", badge: "WHY", text: "PhD in AI. Build systems that understand humans more naturally than they understand themselves. That's the research direction. Everything else is preparation." },
 ];
 
 export default function Journey() {
@@ -25,8 +25,9 @@ export default function Journey() {
         <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 tracking-tight">
           The Road So Far<span className="text-accent">.</span>
         </motion.h2>
-        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-16 max-w-2xl">
-          Not a timeline of achievements. A map of where I&apos;m going.
+        <motion.p initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-16 max-w-2xl whitespace-pre-line">
+          Not a timeline of achievements.
+          A research direction.
         </motion.p>
 
         <div ref={containerRef} className="relative pl-10 md:pl-14">

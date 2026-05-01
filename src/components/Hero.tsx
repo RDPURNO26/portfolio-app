@@ -200,7 +200,7 @@ export default function Hero() {
         >
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
           <span className="font-mono text-[11px] tracking-wider text-accent/80">
-            OPEN TO OPPORTUNITIES
+            Open to Internship · Scholarship · Opportunities
           </span>
         </motion.div>
 
@@ -243,7 +243,10 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.7 }}
           className="text-muted text-base sm:text-lg md:text-xl font-sans mb-12 tracking-wide max-w-2xl mx-auto"
         >
-          Diploma student from Bangladesh. Targeting Japan.
+          Bridging humans and machines through intelligent systems. From Bangladesh. Heading to Japan.
+          <br />
+          <span className="block mt-4 text-sm italic text-[#6b7280]">日本で学び、AIの未来を築く。</span>
+          <span className="block mt-1 text-xs text-[#6b7280]">(Learning in Japan. Building the future of AI.)</span>
         </motion.p>
 
         {/* CTA */}

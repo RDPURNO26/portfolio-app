@@ -20,8 +20,8 @@ export default function Contact() {
         <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="font-heading font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-4 tracking-tight">
           Let&apos;s Talk<span className="text-accent">.</span>
         </motion.h2>
-        <motion.p initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-10 max-w-2xl leading-relaxed">
-          Whether you&apos;re a recruiter, a scholarship committee, or just someone curious — I&apos;m reachable.
+        <motion.p initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.2 }} className="text-muted text-base md:text-lg mb-10 max-w-2xl leading-relaxed whitespace-pre-line">
+          If you're a recruiter, scholarship committee, research lab, or internship manager — I'm actively looking for the right opportunity. Let's talk about what I can contribute.
         </motion.p>
         
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.3 }} className="mb-14">
