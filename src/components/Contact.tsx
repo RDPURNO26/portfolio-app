@@ -11,6 +11,17 @@ const contacts = [
 ];
 
 export default function Contact() {
+  const handleDownload = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    window.open("/RD_Purno_CV.pdf", "_blank");
+    const link = document.createElement("a");
+    link.href = "/RD_Purno_CV.pdf";
+    link.download = "RD_Purno_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="contact" className="relative py-28 md:py-40 px-6">
       <div className="max-w-5xl mx-auto">
@@ -25,7 +36,7 @@ export default function Contact() {
         </motion.p>
         
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.3 }} className="mb-14">
-          <a href="/RD_Purno_CV.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full border border-accent/30 bg-accent/5 text-accent font-mono text-sm uppercase tracking-widest hover:bg-accent/15 hover:shadow-[0_0_20px_#00d4ff20] transition-all duration-300" data-hover>
+          <a href="/RD_Purno_CV.pdf" onClick={handleDownload} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 px-8 py-3.5 rounded-full border border-accent/30 bg-accent/5 text-accent font-mono text-sm uppercase tracking-widest hover:bg-accent/15 hover:shadow-[0_0_20px_#00d4ff20] transition-all duration-300" data-hover>
              Download Resume
           </a>
         </motion.div>
