@@ -273,7 +273,7 @@ export default function Hero() {
         transition={{ delay: 3, duration: 1 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="font-mono text-[9px] tracking-[0.3em] text-muted/50 uppercase">
+        <span className="font-mono text-[9px] tracking-[0.3em] text-muted uppercase">
           Scroll
         </span>
         <motion.div

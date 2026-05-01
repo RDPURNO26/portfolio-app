@@ -3,17 +3,18 @@
 import { motion, AnimatePresence, MotionConfig } from "framer-motion";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 
 const CustomCursor = dynamic(() => import("@/components/CustomCursor"), {
   ssr: false,
 });
 
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import Skills from "@/components/Skills";
-import Journey from "@/components/Journey";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+const About = dynamic(() => import("@/components/About"));
+const Projects = dynamic(() => import("@/components/Projects"));
+const Skills = dynamic(() => import("@/components/Skills"));
+const Journey = dynamic(() => import("@/components/Journey"));
+const Contact = dynamic(() => import("@/components/Contact"));
+const Footer = dynamic(() => import("@/components/Footer"));
 
 const sectionAnim = {
   initial: { opacity: 0, y: 50 },
@@ -35,9 +36,7 @@ function Divider() {
   );
 }
 
-const Hero = dynamic(() => import("@/components/Hero"), {
-  ssr: false,
-});
+
 
 export default function Home() {
   return (

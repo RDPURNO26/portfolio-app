@@ -81,7 +81,7 @@ export default function About() {
 
             {/* Quick facts */}
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.5 }} className="w-full p-6 rounded-xl glass gradient-border">
-              <div className="font-mono text-[10px] text-accent/70 uppercase tracking-[0.2em] mb-4">Quick Facts</div>
+              <div className="font-mono text-[10px] text-accent uppercase tracking-[0.2em] mb-4">Quick Facts</div>
               <ul className="space-y-3 font-mono text-xs">
                 {quickFacts.map(([key, val], i) => (
                   <motion.li key={i} initial={{ opacity: 0, x: -10 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ delay: 0.55 + i * 0.06, duration: 0.3 }} className="flex justify-between gap-4 py-1 border-b border-surface-border/50 last:border-0">
@@ -96,7 +96,7 @@ export default function About() {
             {/* Tags */}
             <div className="flex flex-wrap gap-2">
               {tags.map((tag, i) => (
-                <motion.span key={tag} initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.7 + i * 0.05, duration: 0.3 }} whileHover={{ scale: 1.08, borderColor: "#00d4ff44", boxShadow: "0 0 16px #00d4ff15" }} className={`px-3 py-1.5 rounded-full text-xs font-mono bg-accent/[0.06] text-accent/80 border border-accent/10 cursor-default transition-all duration-300 ${tag.includes("learning") ? "animate-pulse-soft" : ""}`}>
+                <motion.span key={tag} initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ delay: 0.7 + i * 0.05, duration: 0.3 }} whileHover={{ scale: 1.08, borderColor: "#00d4ff44", boxShadow: "0 0 16px #00d4ff15" }} className={`px-3 py-1.5 rounded-full text-xs font-mono bg-accent/[0.06] text-accent border border-accent/10 cursor-default transition-all duration-300 ${tag.includes("learning") ? "animate-pulse-soft" : ""}`}>
                   {tag}
                 </motion.span>
               ))}
