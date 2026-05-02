@@ -8,7 +8,7 @@ export default function StructuredData() {
       name: 'Rahimanid Dian Purno',
       alternateName: ['RD Purno', 'RDPURNO26'],
       url: 'https://rdpurno.vercel.app',
-      image: 'https://rdpurno.vercel.app/RD.png',
+      image: 'https://rdpurno.vercel.app/photo.png',
       jobTitle: 'Computer Science & Technology Student',
       description: 'CST student from Bangladesh. Built AURA gesture control system using Python and MediaPipe. Targeting BSc in AI in Japan.',
       nationality: 'Bangladeshi',

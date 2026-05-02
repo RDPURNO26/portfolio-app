@@ -74,7 +74,7 @@ export default function About() {
               <div className="absolute inset-[2px] rounded-2xl overflow-hidden bg-surface">
                 <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #0a0a1a 0%, #111128 30%, #00d4ff08 100%)" }} />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Image src="/RD.png" alt="Rahimanid Dian Purno — RD Purno, Computer Science student from Bangladesh" fill className="object-cover" />
+                  <Image src="/photo.png" alt="Rahimanid Dian Purno — RD Purno, Computer Science student from Bangladesh" fill className="object-cover" />
                 </div>
               </div>
             </motion.div>
