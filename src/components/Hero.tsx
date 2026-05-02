@@ -245,8 +245,8 @@ export default function Hero() {
         >
           Bridging humans and machines through intelligent systems. From Bangladesh. Heading to Japan.
           <br />
-          <span className="block mt-4 text-sm italic text-[#6b7280]">日本で学び、AIの未来を築く。</span>
-          <span className="block mt-1 text-xs text-[#6b7280]">(Learning in Japan. Building the future of AI.)</span>
+          <span className="block mt-4 text-sm italic text-[#6b7280]">日本語を勉強しています。まだ旅の途中です。</span>
+          <span className="block mt-1 text-xs text-[#6b7280]">(I'm studying Japanese. Still on the journey.)</span>
         </motion.p>
 
         {/* CTA */}
