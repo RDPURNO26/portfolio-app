@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rahimanid Dian Purno | Professional Portfolio
 
-## Getting Started
+![Portfolio Preview](public/preview.jpg) <!-- Optional: if you have a preview image -->
 
-First, run the development server:
+Welcome to the repository of my personal portfolio website. I am **Rahimanid Dian Purno (RD Purno)**, a developer and AI student from Bangladesh, currently heading to Japan. My work focuses on bridging humans and machines through intelligent systems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🌍 **Live Website:** [rdpurno.vercel.app](https://rdpurno.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dynamic Hero Section:** Immersive particle canvas background and seeded deterministic animations.
+- **About Me:** An insight into my journey, my passion for AI, and my ongoing studies in the Japanese language.
+- **Projects Showcase:** Detailed highlights of my notable works and research.
+- **Skills:** A comprehensive look at the technologies and tools I work with.
+- **Journey Timeline:** A visual progression of my professional and academic milestones.
+- **Fluid Animations:** Smooth, framer-motion powered transitions, interactive components, and a custom interactive cursor.
+- **Responsive Design:** A premium, modern interface that works flawlessly across all devices.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+This project is built with modern, high-performance web technologies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework:** [Next.js](https://nextjs.org/) (React 19)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💻 Running Locally
 
-## Deploy on Vercel
+If you'd like to explore the code or run this project on your local machine, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/RDPURNO26/Mirror_Y.git
+   cd Mirror_Y
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. **Open in browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
+
+## 📬 Contact & Opportunities
+
+I am currently open to **Internships, Scholarships, and New Opportunities**, especially those related to Artificial Intelligence, Human-Computer Interaction, and positions in Japan.
+
+Feel free to connect with me through the contact form on my [website](https://rdpurno.vercel.app/#contact) or reach out via my professional social networks linked on the site.
+
+---
+*“The plan might not work. I'm building it anyway.”*
