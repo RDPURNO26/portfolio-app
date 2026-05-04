@@ -19,7 +19,7 @@ export default function Footer() {
             RD Purno<span className="text-accent">.</span>
           </p>
           <p className="text-[11px] text-muted/80 font-mono tracking-wider">
-            © 2026 Rahimanid Dian Purno (RD Purno) — Bangladesh → Japan
+            © 2026 Rahimanid Dian Purno (RD Purno)
           </p>
         </motion.div>
         

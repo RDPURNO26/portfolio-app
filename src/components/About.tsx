@@ -57,7 +57,7 @@ export default function About() {
           {/* Text column */}
           <div className="lg:col-span-3 space-y-5">
             {paragraphs.map((text, i) => (
-              <motion.p key={i} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.15 + i * 0.08 }} className="text-base md:text-lg leading-[1.85] text-muted">
+              <motion.p key={i} initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: 0.15 + i * 0.08 }} className="text-base md:text-lg leading-[1.85] text-muted font-[420]">
                 {text}
               </motion.p>
             ))}

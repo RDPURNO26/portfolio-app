@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://rdpurno.vercel.app',
     title: 'Rahimanid Dian Purno | RD Purno — Developer & AI Student',
-    description: 'CST student from Bangladesh. Built AURA gesture control. Targeting BSc in AI in Japan.',
+    description: 'CST student. Built AURA — real-time gesture control system. Developer & AI researcher.',
     siteName: 'RD Purno',
     images: [{ url: 'https://rdpurno.vercel.app/og-image.png', width: 1200, height: 630, alt: 'Rahimanid Dian Purno — RD Purno Portfolio' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Rahimanid Dian Purno | RD Purno',
-    description: 'CST student from Bangladesh. Built AURA. Targeting Japan for BSc in AI.',
+    description: 'CST student. Built AURA — real-time gesture control system. Developer & AI researcher.',
     images: ['https://rdpurno.vercel.app/og-image.png'],
   },
   robots: {

@@ -243,10 +243,10 @@ export default function Hero() {
           transition={{ delay: 1.6, duration: 0.7 }}
           className="text-muted text-base sm:text-lg md:text-xl font-sans mb-12 tracking-wide max-w-2xl mx-auto"
         >
-          Bridging humans and machines through intelligent systems. From Bangladesh. Heading to Japan.
+          Bridging humans and machines through intelligent systems.
           <br />
-          <span className="block mt-4 text-sm italic text-[#6b7280]">日本語を勉強しています。まだ旅の途中です。</span>
-          <span className="block mt-1 text-xs text-[#6b7280]">(I'm studying Japanese. Still on the journey.)</span>
+          <span className="block mt-4 text-sm italic text-[#a0a0b8]">日本語を勉強しています。まだ旅の途中です。</span>
+          <span className="block mt-1 text-xs text-[#8a8a9e]">(I'm studying Japanese. Still on the journey.)</span>
         </motion.p>
 
         {/* CTA */}
