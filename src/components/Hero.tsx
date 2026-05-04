@@ -245,8 +245,8 @@ export default function Hero() {
         >
           Bridging humans and machines through intelligent systems.
           <br />
-          <span className="block mt-4 text-sm italic text-[#a0a0b8]">日本語を勉強しています。まだ旅の途中です。</span>
-          <span className="block mt-1 text-xs text-[#8a8a9e]">(I'm studying Japanese. Still on the journey.)</span>
+          <span className="block mt-4 text-sm italic text-[#c0cedc]">日本語を勉強しています。まだ旅の途中です。</span>
+          <span className="block mt-1 text-xs text-[#a8b8c8]">(I'm studying Japanese. Still on the journey.)</span>
         </motion.p>
 
         {/* CTA */}
